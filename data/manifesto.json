@@ -1,4 +1,3 @@
-cat > data/manifesto.json <<'JSON'
 {
   "dataset_id": "chamados-v1",
   "origem": "Exemplos sintéticos criados para a Atividade Prática 04",
@@ -7,4 +6,3 @@ cat > data/manifesto.json <<'JSON'
   "regra_de_rotulagem": "Queda, falha crítica e bloqueio são urgentes. Cadastro e dúvida são comuns.",
   "alteracao": "Snapshot inicial com erro de anotação intencional no ID 006."
 }
-JSON
