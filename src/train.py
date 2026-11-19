@@ -1,8 +1,3 @@
-cat > params.json <<'JSON'
-{"tokenizador": "primeira_palavra_minuscula"}
-JSON
-
-cat > src/train.py <<'PY'
 import csv
 import hashlib
 import json
@@ -114,8 +109,3 @@ salvar_json("reports/modelo.json", {
     "artifact_sha256": sha256(artefato),
     "avaliacao": avaliacao,
 })
-PY
-
-git add src/train.py params.json
-git commit -m "Adiciona treinamento e avaliação de chamados"
-git status --short
